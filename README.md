@@ -58,7 +58,7 @@ Raw CSV (Kaggle Retail Orders Dataset)
 │  bronze_ingestion                       │
 │       → silver_transformation           │
 │       → gold_aggregation                │
-│       → data_quality_check             │
+│       → data_quality_check              │
 │  Daily schedule | 2 retries             │
 └─────────────────────────────────────────┘
            │
@@ -104,7 +104,7 @@ retail-medallion-pipeline/
 │   └── retail_pipeline_dag.py           # Airflow DAG definition
 │
 ├── dashboard/
-│   └── retail_analytics_dashboard   # Tableau dashboard 
+│   └── retail_analytics_dashboard       # Tableau dashboard 
 │
 ├── data/
 │   └── sample_orders.csv                # Sample dataset (100 rows)
